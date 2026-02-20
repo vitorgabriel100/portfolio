@@ -1,61 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Vitor Gabriel | IA & Machine Learning</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Portfólio de Vitor Gabriel — Machine Learning aplicado à previsão e automação de decisões." />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <div class="bg"></div>
 
-<header>
-  <h1>Vitor Gabriel</h1>
-  <p>Machine Learning aplicado à previsão e automação de decisões</p>
+  <header class="container">
+    <nav class="nav">
+      <div class="brand">Vitor Penhorato<span class="dot">.</span></div>
+      <div class="nav-links">
+        <a href="#projetos">Projetos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
 
-  <div class="links">
-    <a href="https://github.com/vitorgabriel100" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/vitor-penhorato/" target="_blank">LinkedIn</a>
-    <a href="#">Currículo (PDF)</a>
-  </div>
-</header>
+    <section class="hero">
+      <div class="hero-left">
+        <p class="pill">IA aplicada • Machine Learning • Automação</p>
+        <h1>
+          Construo modelos para <span class="accent">prever</span> e <span class="accent">automatizar</span> decisões.
+        </h1>
+        <p class="subtitle">
+          Portfólio focado em ML aplicado com projetos práticos e explicações técnicas claras.
+          Atualmente construindo um projeto de futebol (Brasileirão/Corinthians).
+        </p>
 
-<section>
-  <h2>Projetos</h2>
+        <div class="cta">
+          <a class="btn primary" href="#projetos">Ver projetos</a>
+          <a class="btn ghost" href="https://github.com/vitorgabriel100" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/vitor-penhorato" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
 
-  <div class="card">
-    <h3>⚽ Previsão de Resultados — Brasileirão (Corinthians)</h3>
-    <p>
-      Modelo de Machine Learning para prever resultados de partidas do Campeonato Brasileiro,
-      com foco no Corinthians, utilizando dados históricos, feature engineering e avaliação de métricas.
-    </p>
-    <a href="https://github.com/vitorgabriel100/ml-brasileirao-corinthians" target="_blank">
-      Ver projeto
-    </a>
-  </div>
+    <section id="sobre" class="section">
+      <div class="section-head">
+        <h2>Sobre</h2>
+        <p>Meu foco é usar ML para resolver problemas reais com previsões e automações mensuráveis.</p>
+      </div>
 
-  <div class="card">
-    <h3>📊 Automação de Pipeline de Machine Learning</h3>
-    <p>
-      Pipeline automatizado para coleta de dados, tratamento, treino de modelo e geração de relatórios.
-    </p>
-    <span class="coming-soon">Em desenvolvimento</span>
-  </div>
+      <div class="two">
+        <div class="glass panel">
+          <h3>O que eu faço</h3>
+          <ul class="list">
+            <li>📊 Transformo dados em features úteis</li>
+            <li>🧠 Treino e avalio modelos (com métricas e validação)</li>
+            <li>⚙️ Automatizo pipelines para repetir e escalar</li>
+            <li>📝 Documento o raciocínio (README + notebooks)</li>
+          </ul>
+        </div>
 
-</section>
+        <div class="glass panel">
+          <h3>Stack</h3>
+          <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">Pandas</span>
+            <span class="chip">NumPy</span>
+            <span class="chip">scikit-learn</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Git/GitHub</span>
+            <span class="chip">Jupyter</span>
+          </div>
 
-<section>
-  <h2>Sobre mim</h2>
-  <p>
-    Sou desenvolvedor com foco em Inteligência Artificial e Machine Learning aplicado.
-    Tenho experiência com análise de dados, automação de processos e construção de modelos
-    preditivos, buscando transformar dados em decisões práticas e mensuráveis.
-  </p>
+          <div class="note">
+            <strong>Meta 2026:</strong> consolidar projetos de IA aplicada (previsão + automação) com domínio em futebol.
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <p><strong>Stack:</strong> Python, Pandas, NumPy, Scikit-learn, SQL, Git, Machine Learning</p>
-</section>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Projetos (meta)</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">ML</div>
+            <div class="stat-label">Previsão + Automação</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">⚽</div>
+            <div class="stat-label">Brasileirão</div>
+          </div>
+        </div>
+      </div>
 
-<footer>
-  <p>© 2026 — Vitor Penhorato</p>
-</footer>
+      <div class="hero-right">
+        <div class="card glass">
+          <div class="card-title">Em destaque</div>
+          <h3>⚽ Previsão de Resultados — Brasileirão (Corinthians)</h3>
+          <p>
+            Classificação (vitória/empate/derrota) com dados históricos, feature engineering e métricas.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">scikit-learn</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Feature Eng.</span>
+          </div>
+          <div class="card-actions">
+            <a class="btn small primary" href="https://github.com/vitorgabriel100/ml-brasileirao-corinthians" target="_blank" rel="noreferrer">Ver repo</a>
+            <span class="muted">Em desenvolvimento</span>
+          </div>
+        </div>
 
+        <div class="mini-grid">
+          <div class="mini glass">
+            <div class="mini-title">Foco</div>
+            <div class="mini-value">Probabilidades</div>
+            <div class="mini-desc">Decisões baseadas em risco</div>
+          </div>
+          <div class="mini glass">
+            <div class="mini-title">Pipeline</div>
+            <div class="mini-value">Automação</div>
+            <div class="mini-desc">Dados → Treino → Relatório</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="projetos" class="section">
+      <div class="section-head">
+        <h2>Projetos</h2>
+        <p>Poucos projetos, bem feitos. Cada um com objetivo, dados, método e resultados.</p>
+      </div>
+
+      <div class="grid">
+        <article class="proj glass">
+          <div class="proj-top">
+            <h3>⚽ Previsão de Resultados — Brasileirão (Corinthians)</h3>
+            <p>Modelo de classificação para prever resultados e analisar probabilidades.</p>
+          </div>
+          <div class="tags">
+            <span class="tag">Classificação</span>
+            <span class="tag">EDA</span>
+            <span class="tag">Métricas</span>
+            <span class="tag">Notebook</span>
+          </div>
+          <div class="proj-actions">
+            <a class="btn small primary" href="https://github.com/vitorgabriel100/ml-brasileirao-corinthians" target="_blank" rel="noreferrer">Ver no GitHub</a>
+            <span class="muted">Em desenvolvimento</span>
+          </div>
+        </article>
+
+        <article class="proj glass">
+          <div class="proj-top">
+            <h3>📈 Previsão de desempenho de jogadores</h3>
+            <p>Regressão para prever métricas futuras e comparar modelos.</p>
+          </div>
+          <div class="tags">
+            <span class="tag">Regressão</span>
+            <span class="tag">Validação</span>
+            <span class="tag">Interpretação</span>
+          </div>
+          <div class="proj-actions">
+            <span class="muted">Em breve</span>
+          </div>
+        </article>
+
+        <article class="proj glass">
+          <div class="proj-top">
+            <h3>⚙️ Automação de pipeline de ML</h3>
+            <p>Script/CLI para automatizar coleta, treino, avaliação e geração de relatório.</p>
+          </div>
+          <div class="tags">
+            <span class="tag">Automação</span>
+            <span class="tag">Relatórios</span>
+            <span class="tag">Reprodutibilidade</span>
+          </div>
+          <div class="proj-actions">
+            <span class="muted">Em breve</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="section-head">
+        <h2>Contato</h2>
+        <p>Se quiser falar sobre projetos, oportunidades ou trocar ideia técnica:</p>
+      </div>
+
+      <div class="contact glass">
+        <div>
+          <div class="contact-label">GitHub</div>
+          <a href="https://github.com/vitorgabriel100" target="_blank" rel="noreferrer">github.com/vitorgabriel100</a>
+        </div>
+        <div>
+          <div class="contact-label">LinkedIn</div>
+          <a href="https://www.linkedin.com/in/vitor-penhorato" target="_blank" rel="noreferrer">linkedin.com/in/vitor-penhorato</a>
+        </div>
+        <div>
+          <div class="contact-label">E-mail</div>
+          <a href="mailto:contato.vitorgabriel2@gmail.com">contato.vitorgabriel2@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 — Vitor Penhorato</span>
+      <span class="muted">Feito com GitHub Pages</span>
+    </div>
+  </footer>
 </body>
 </html>
