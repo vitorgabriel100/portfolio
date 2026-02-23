@@ -21,6 +21,7 @@
       </div>
     </nav>
 
+    <!-- HERO -->
     <section class="hero">
       <div class="hero-left">
         <p class="pill">IA aplicada • Machine Learning • Automação</p>
@@ -38,6 +39,62 @@
           <a class="btn ghost" href="https://www.linkedin.com/in/vitor-penhorato" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
 
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Projetos (meta)</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">ML</div>
+            <div class="stat-label">Previsão + Automação</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">⚽</div>
+            <div class="stat-label">Futebol</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card glass">
+          <div class="card-title">Em destaque</div>
+          <h3>⚽ Evolução de desempenho — Lamine Yamal</h3>
+          <p>
+            Análise por temporada do (xG90 + xA90) com pipeline em Python, engenharia de features e regressão linear
+            como ferramenta analítica.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">pandas</span>
+            <span class="tag">scikit-learn</span>
+            <span class="tag">matplotlib</span>
+          </div>
+          <div class="card-actions">
+            <!-- TROQUE o link abaixo pelo repositório certo do projeto -->
+            <a class="btn small primary" href="https://github.com/vitorgabriel100/ml-player-performance" target="_blank" rel="noreferrer">Ver repo</a>
+            <span class="muted">Pronto</span>
+          </div>
+        </div>
+
+        <div class="mini-grid">
+          <div class="mini glass">
+            <div class="mini-title">Métrica</div>
+            <div class="mini-value">xG90 + xA90</div>
+            <div class="mini-desc">Normalizado por 90</div>
+          </div>
+          <div class="mini glass">
+            <div class="mini-title">Pipeline</div>
+            <div class="mini-value">Reprodutível</div>
+            <div class="mini-desc">Scripts .py organizados</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /HERO -->
+  </header>
+
+  <main class="container">
+    <!-- SOBRE -->
     <section id="sobre" class="section">
       <div class="section-head">
         <h2>Sobre</h2>
@@ -73,59 +130,9 @@
         </div>
       </div>
     </section>
+    <!-- /SOBRE -->
 
-        <div class="stats">
-          <div class="stat">
-            <div class="stat-num">3</div>
-            <div class="stat-label">Projetos (meta)</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">ML</div>
-            <div class="stat-label">Previsão + Automação</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">⚽</div>
-            <div class="stat-label">Brasileirão</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-right">
-        <div class="card glass">
-          <div class="card-title">Em destaque</div>
-          <h3>⚽ Previsão de Resultados — Brasileirão (Corinthians)</h3>
-          <p>
-            Classificação (vitória/empate/derrota) com dados históricos, feature engineering e métricas.
-          </p>
-          <div class="tags">
-            <span class="tag">Python</span>
-            <span class="tag">scikit-learn</span>
-            <span class="tag">Pandas</span>
-            <span class="tag">Feature Eng.</span>
-          </div>
-          <div class="card-actions">
-            <a class="btn small primary" href="https://github.com/vitorgabriel100/ml-brasileirao-corinthians" target="_blank" rel="noreferrer">Ver repo</a>
-            <span class="muted">Em desenvolvimento</span>
-          </div>
-        </div>
-
-        <div class="mini-grid">
-          <div class="mini glass">
-            <div class="mini-title">Foco</div>
-            <div class="mini-value">Probabilidades</div>
-            <div class="mini-desc">Decisões baseadas em risco</div>
-          </div>
-          <div class="mini glass">
-            <div class="mini-title">Pipeline</div>
-            <div class="mini-value">Automação</div>
-            <div class="mini-desc">Dados → Treino → Relatório</div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </header>
-
-  <main class="container">
+    <!-- PROJETOS -->
     <section id="projetos" class="section">
       <div class="section-head">
         <h2>Projetos</h2>
@@ -152,8 +159,25 @@
 
         <article class="proj glass">
           <div class="proj-top">
-            <h3>📈 Previsão de desempenho de jogadores</h3>
-            <p>Regressão para prever métricas futuras e comparar modelos.</p>
+            <h3>📊 Evolução ofensiva por temporada — Lamine Yamal</h3>
+            <p>Análise de (xG90 + xA90) com tratamento estatístico, feature engineering e regressão linear como apoio interpretativo.</p>
+          </div>
+          <div class="tags">
+            <span class="tag">Análise</span>
+            <span class="tag">Feature Eng.</span>
+            <span class="tag">Regressão</span>
+            <span class="tag">Pipeline</span>
+          </div>
+          <div class="proj-actions">
+            <a class="btn small primary" href="https://github.com/vitorgabriel100/ml-player-performance" target="_blank" rel="noreferrer">Ver no GitHub</a>
+            <span class="muted">Pronto</span>
+          </div>
+        </article>
+
+        <article class="proj glass">
+          <div class="proj-top">
+            <h3>📈 Comparação de modelos — desempenho de jogadores</h3>
+            <p>Experimentos com regressão/validação para comparar modelos e interpretar métricas.</p>
           </div>
           <div class="tags">
             <span class="tag">Regressão</span>
@@ -181,7 +205,9 @@
         </article>
       </div>
     </section>
+    <!-- /PROJETOS -->
 
+    <!-- CONTATO -->
     <section id="contato" class="section">
       <div class="section-head">
         <h2>Contato</h2>
@@ -203,6 +229,7 @@
         </div>
       </div>
     </section>
+    <!-- /CONTATO -->
   </main>
 
   <footer class="footer">
