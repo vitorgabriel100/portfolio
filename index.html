@@ -3,348 +3,435 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Vitor Gabriel | Machine Learning, Dados & IA Aplicada</title>
-  <meta name="description" content="Portfólio de Vitor Gabriel — Machine Learning, análise de dados, automação e IA aplicada com foco em projetos práticos." />
+
+  <title>Vitor Gabriel | Dados, Machine Learning & Universo Criativo</title>
+
+  <meta
+    name="description"
+    content="Portfólio de Vitor Gabriel — dados, automações, Machine Learning, música, astronomia e projetos aplicados a problemas reais."
+  />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div class="bg"></div>
+  <div class="space-bg">
+    <span class="star star-1"></span>
+    <span class="star star-2"></span>
+    <span class="star star-3"></span>
+    <span class="star star-4"></span>
+    <span class="star star-5"></span>
+    <span class="star star-6"></span>
+  </div>
 
-  <header class="container">
-    <nav class="nav">
-      <div class="brand">Vitor Penhorato<span class="dot">.</span></div>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#" class="brand" aria-label="Página inicial">
+        <span class="brand-symbol">✦</span>
+        Vitor.Galaxy
+      </a>
+
       <div class="nav-links">
-        <a href="#sobre">Sobre</a>
-        <a href="#destaque">Destaque</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#experiencias">Experiências</a>
-        <a href="#educacao">Educação</a>
-        <a href="#certificados">Certificados</a>
+        <a href="#sobre">Universo</a>
+        <a href="#cases">Cases</a>
+        <a href="#mixtape">Mixtape</a>
+        <a href="#stack">Stack</a>
+        <a href="#jornada">Jornada</a>
         <a href="#contato">Contato</a>
       </div>
     </nav>
 
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Machine Learning · Dados · IA Aplicada</p>
-        <h1>Vitor Gabriel</h1>
-        <p class="hero-role">Machine Learning & Data Projects</p>
+    <section class="hero container">
+      <div class="hero-content">
+        <p class="eyebrow">Astronomia · Música · Dados · Machine Learning</p>
 
-        <p class="hero-description">
-          Construo projetos de Machine Learning, análise de dados e automação com foco em resolver
-          problemas reais, transformar dados em previsões e criar soluções úteis para negócio.
+        <h1>
+          Entre estrelas, batidas e dados,
+          <span>eu procuro padrões.</span>
+        </h1>
+
+        <p class="hero-text">
+          Sou Vitor Gabriel, um profissional em transição e evolução para Dados,
+          Machine Learning e IA aplicada. Minha base vem da operação real:
+          Service Desk, SQL, SAP, automações e problemas que precisam sair do papel.
         </p>
 
         <div class="hero-actions">
-          <a class="btn primary" href="#destaque">Ver projeto em destaque</a>
-          <a class="btn ghost" href="#projetos">Explorar projetos</a>
+          <a class="btn primary" href="#cases">Ver meus cases</a>
+          <a class="btn secondary" href="#mixtape">Ouvir minha mixtape de projetos</a>
         </div>
 
-        <div class="social-inline">
+        <div class="social-row">
           <a href="https://github.com/vitorgabriel100" target="_blank" rel="noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/vitor-penhorato" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="mailto:contato.vitorgabriel2@gmail.com">E-mail</a>
         </div>
       </div>
 
-      <div class="hero-panel">
-        <div class="hero-card">
-          <span class="hero-card-label">Projeto principal</span>
-          <h2>⚽ Brasileirão Match Predictor</h2>
-          <p>
-            Projeto de Machine Learning para prever resultados de partidas do Campeonato Brasileiro,
-            com pipeline de limpeza, treinamento do modelo e interface interativa em Streamlit.
-          </p>
+      <aside class="orbit-card" aria-label="Resumo profissional">
+        <div class="planet"></div>
 
-          <div class="tag-row">
-            <span>Python</span>
-            <span>Pandas</span>
-            <span>Scikit-learn</span>
-            <span>Streamlit</span>
-            <span>Joblib</span>
+        <div class="orbit-line orbit-line-1"></div>
+        <div class="orbit-line orbit-line-2"></div>
+
+        <div class="system-panel">
+          <span class="panel-label">VITOR_OS / STATUS</span>
+
+          <div class="terminal-lines">
+            <p><span>base</span> Service Desk + SAP + PL/SQL</p>
+            <p><span>foco</span> Dados + Machine Learning</p>
+            <p><span>criação</span> Música + Universo + Anime</p>
+            <p><span>missão</span> transformar problemas reais em soluções úteis</p>
           </div>
 
-          <div class="hero-card-actions">
-            <a class="btn small primary" href="https://github.com/vitorgabriel100/brasileirao-match-predictor" target="_blank" rel="noreferrer">Ver projeto</a>
-            <span class="hero-card-status">Publicado</span>
+          <div class="signal">
+            <span></span>
+            <span></span>
+            <span></span>
+            <strong>online</strong>
           </div>
         </div>
-      </div>
+      </aside>
     </section>
   </header>
 
-  <main class="container">
+  <main>
+    <section id="sobre" class="section container">
+      <div class="section-head">
+        <p class="section-kicker">Meu universo</p>
+        <h2>Não é só um portfólio. É um mapa do que eu sou.</h2>
+      </div>
 
-    <section id="sobre" class="section section-divider">
-      <h2>Sobre</h2>
-      <div class="content-block">
-        <p>
-          Sou um profissional em aprofundamento na área de dados e Inteligência Artificial, com foco
-          em Machine Learning aplicado, automação de processos e análise orientada a decisões.
-        </p>
-        <p>
-          Meu objetivo é construir soluções técnicas que conectem modelagem, contexto real e clareza
-          de execução — especialmente em projetos de previsão, automação e aplicações ligadas a negócio.
-        </p>
+      <div class="about-grid">
+        <article class="about-card large">
+          <span class="card-icon">🌌</span>
+          <h3>Astronomia como visão</h3>
+          <p>
+            Meu interesse pelo universo vem de longe. Fiz TCC sobre astronomia e formação
+            de estrelas, e essa forma de enxergar padrões, ciclos e fenômenos também aparece
+            no jeito que eu estudo dados e Machine Learning.
+          </p>
+        </article>
 
-        <div class="stack-inline">
-          <span>Python</span>
-          <span>SQL</span>
-          <span>Oracle</span>
-          <span>scikit-learn</span>
-          <span>Pandas</span>
-          <span>Streamlit</span>
-          <span>Git/GitHub</span>
-          <span>APIs</span>
-        </div>
+        <article class="about-card">
+          <span class="card-icon">🎧</span>
+          <h3>Música como identidade</h3>
+          <p>
+            Música é uma das minhas maiores referências. R&B, soul, jazz, gospel, pop,
+            rap e outros estilos fazem parte da minha forma de pensar, sentir e criar.
+          </p>
+        </article>
+
+        <article class="about-card">
+          <span class="card-icon">✨</span>
+          <h3>Anime como estética</h3>
+          <p>
+            Gosto de mundos visuais fortes, jornadas de evolução e personagens que treinam
+            para alcançar outro nível. Essa ideia combina muito com minha fase atual.
+          </p>
+        </article>
       </div>
     </section>
 
-    <section id="destaque" class="section section-divider">
-      <h2>Projeto em destaque</h2>
+    <section id="cases" class="section container">
+      <div class="section-head split">
+        <div>
+          <p class="section-kicker">Cases principais</p>
+          <h2>Projetos que mostram raciocínio, entrega e evolução.</h2>
+        </div>
 
-      <article class="featured-project">
-        <div class="featured-content">
-          <p class="featured-label">Machine Learning aplicado ao futebol</p>
-          <h3>Brasileirão Match Predictor</h3>
-          <p class="featured-text">
-            Este projeto foi desenvolvido para prever o resultado de partidas do Campeonato Brasileiro
-            a partir de dados históricos tratados em Python, treinamento de modelo com scikit-learn
-            e disponibilização da previsão em uma interface com Streamlit.
-          </p>
-          <p class="featured-text">
-            Ele representa bem meu foco atual: usar Machine Learning de forma prática, conectando
-            dados, modelagem e entrega final utilizável.
+        <p class="section-note">
+          Antes do modelo, existe o problema. Antes do dashboard, existe uma dor real.
+        </p>
+      </div>
+
+      <div class="case-grid">
+        <article class="case-card featured">
+          <div class="case-number">01</div>
+
+          <div class="case-content">
+            <p class="case-type">Machine Learning · Futebol · Produto</p>
+            <h3>Brasileirão Match Predictor</h3>
+
+            <p>
+              Projeto de Machine Learning para prever resultados de partidas do Campeonato
+              Brasileiro, conectando dados históricos, pipeline de tratamento, modelo de
+              classificação e interface em Streamlit.
+            </p>
+
+            <div class="case-details">
+              <div>
+                <span>Problema</span>
+                <strong>Prever resultado de jogos com dados históricos</strong>
+              </div>
+              <div>
+                <span>Solução</span>
+                <strong>Pipeline + modelo + app interativo</strong>
+              </div>
+              <div>
+                <span>Stack</span>
+                <strong>Python, Pandas, Scikit-learn, Streamlit</strong>
+              </div>
+            </div>
+
+            <a class="project-link" href="https://github.com/vitorgabriel100/brasileirao-match-predictor" target="_blank" rel="noreferrer">
+              Abrir projeto
+            </a>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-number">02</div>
+
+          <p class="case-type">Forecast · Operação · Service Desk</p>
+          <h3>Service Desk Demand Forecast</h3>
+
+          <p>
+            Previsão de volume diário de chamados com comparação entre baselines,
+            validação temporal e modelo Random Forest. Um projeto que conecta minha
+            vivência operacional com análise preditiva.
           </p>
 
-          <div class="tag-row">
-            <span>Classificação</span>
-            <span>Machine Learning</span>
+          <div class="tags">
+            <span>Time Series</span>
+            <span>Random Forest</span>
+            <span>Validação temporal</span>
+          </div>
+
+          <a class="project-link" href="https://github.com/vitorgabriel100/service-desk-demand-forecast" target="_blank" rel="noreferrer">
+            Abrir projeto
+          </a>
+        </article>
+
+        <article class="case-card">
+          <div class="case-number">03</div>
+
+          <p class="case-type">Análise · Esportes · Regressão</p>
+          <h3>Lamine Yamal Performance</h3>
+
+          <p>
+            Análise da evolução ofensiva por temporada usando métricas por 90 minutos,
+            engenharia de atributos e regressão linear como apoio interpretativo.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>Feature Engineering</span>
+            <span>Regressão</span>
+          </div>
+
+          <a class="project-link" href="https://github.com/vitorgabriel100/ml-player-performance" target="_blank" rel="noreferrer">
+            Abrir projeto
+          </a>
+        </article>
+
+        <article class="case-card">
+          <div class="case-number">04</div>
+
+          <p class="case-type">Automação · XML · Negócio real</p>
+          <h3>Gerador MDF-e / Encerramento</h3>
+
+          <p>
+            Aplicação em Streamlit para automatizar rotinas envolvendo MDF-e, XML,
+            encerramento, cancelamento e geração de arquivos usados em contexto corporativo.
+          </p>
+
+          <div class="tags">
             <span>Python</span>
             <span>Streamlit</span>
-            <span>Projeto autoral</span>
+            <span>XML</span>
+            <span>Automação</span>
           </div>
 
-          <div class="featured-actions">
-            <a class="btn primary" href="https://github.com/vitorgabriel100/brasileirao-match-predictor" target="_blank" rel="noreferrer">Abrir no GitHub</a>
-          </div>
-        </div>
-
-        <div class="featured-side">
-          <div class="mini-stat">
-            <span class="mini-stat-label">Tipo</span>
-            <strong>Classificação</strong>
-          </div>
-          <div class="mini-stat">
-            <span class="mini-stat-label">Saída</span>
-            <strong>Vitória / Empate / Derrota</strong>
-          </div>
-          <div class="mini-stat">
-            <span class="mini-stat-label">Deploy</span>
-            <strong>Streamlit</strong>
-          </div>
-          <div class="mini-stat">
-            <span class="mini-stat-label">Stack</span>
-            <strong>Python + Pandas + scikit-learn</strong>
-          </div>
-        </div>
-      </article>
+          <a class="project-link" href="https://github.com/vitorgabriel100/gerador-mdfe-encerramento" target="_blank" rel="noreferrer">
+            Abrir projeto
+          </a>
+        </article>
+      </div>
     </section>
 
-    <section id="projetos" class="section section-divider">
-      <h2>Projetos</h2>
-
-      <div class="project-category">
-        <div class="category-head">
-          <h3>Machine Learning & IA Aplicada</h3>
-          <span class="category-count">Sem limite de quantidade</span>
-        </div>
-
-        <div class="project-list">
-          <article class="project-item">
-            <div class="project-main">
-              <h4>⚽ Brasileirão Match Predictor</h4>
-              <p>
-                Projeto de Machine Learning para prever resultados de partidas do Campeonato Brasileiro,
-                com pipeline de limpeza, treinamento do modelo e interface interativa em Streamlit.
-              </p>
-              <div class="project-tags">
-                <span>Python</span>
-                <span>Pandas</span>
-                <span>Scikit-learn</span>
-                <span>Streamlit</span>
-                <span>Joblib</span>
-              </div>
-            </div>
-            <div class="project-link">
-              <a href="https://github.com/vitorgabriel100/brasileirao-match-predictor" target="_blank" rel="noreferrer">Ver projeto</a>
-            </div>
-          </article>
-
-          <article class="project-item">
-            <div class="project-main">
-              <h4>📊 Previsão de Demanda — Service Desk</h4>
-              <p>
-                Previsão do volume diário de chamados com comparação entre baselines clássicos e modelo
-                Random Forest, utilizando validação temporal e análise de desempenho.
-              </p>
-              <div class="project-tags">
-                <span>Time Series</span>
-                <span>Baseline</span>
-                <span>Random Forest</span>
-                <span>Machine Learning</span>
-              </div>
-            </div>
-            <div class="project-link">
-              <a href="https://github.com/vitorgabriel100/service-desk-demand-forecast" target="_blank" rel="noreferrer">Ver projeto</a>
-            </div>
-          </article>
-        </div>
+    <section id="mixtape" class="section container">
+      <div class="section-head">
+        <p class="section-kicker">Data Mixtape</p>
+        <h2>Cada projeto como uma faixa de um álbum em construção.</h2>
       </div>
 
-      <div class="project-category">
-        <div class="category-head">
-          <h3>Análise de Dados & Esportes</h3>
-          <span class="category-count">Crescimento contínuo</span>
+      <div class="mixtape">
+        <div class="album-cover">
+          <div class="moon"></div>
+          <div class="album-title">
+            <span>Vitor Gabriel apresenta</span>
+            <strong>The Data Galaxy</strong>
+          </div>
         </div>
 
-        <div class="project-list">
-          <article class="project-item">
-            <div class="project-main">
-              <h4>💎 Evolução ofensiva por temporada — Lamine Yamal</h4>
-              <p>
-                Análise de desempenho ofensivo com métricas por 90 minutos, tratamento estatístico,
-                engenharia de atributos e regressão linear como apoio interpretativo.
-              </p>
-              <div class="project-tags">
-                <span>Análise</span>
-                <span>Feature Engineering</span>
-                <span>Regressão</span>
-                <span>Python</span>
-              </div>
+        <div class="track-list">
+          <article class="track active">
+            <span>01</span>
+            <div>
+              <h3>Chamados em Órbita</h3>
+              <p>Forecast de demanda para Service Desk</p>
             </div>
-            <div class="project-link">
-              <a href="https://github.com/vitorgabriel100/ml-player-performance" target="_blank" rel="noreferrer">Ver projeto</a>
+            <strong>03:42</strong>
+          </article>
+
+          <article class="track">
+            <span>02</span>
+            <div>
+              <h3>Brasileirão Nebula</h3>
+              <p>Machine Learning aplicado ao futebol</p>
             </div>
+            <strong>04:10</strong>
+          </article>
+
+          <article class="track">
+            <span>03</span>
+            <div>
+              <h3>Yamal Stardust</h3>
+              <p>Análise ofensiva e regressão</p>
+            </div>
+            <strong>02:58</strong>
+          </article>
+
+          <article class="track">
+            <span>04</span>
+            <div>
+              <h3>XML Supernova</h3>
+              <p>Automação real com Python e Streamlit</p>
+            </div>
+            <strong>05:16</strong>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="experiencias" class="section section-divider">
-      <h2>Experiências</h2>
+    <section id="stack" class="section container">
+      <div class="section-head split">
+        <div>
+          <p class="section-kicker">Stack técnica</p>
+          <h2>As ferramentas que uso para tirar ideias da órbita.</h2>
+        </div>
+      </div>
+
+      <div class="stack-grid">
+        <article class="stack-card">
+          <h3>Dados & ML</h3>
+          <div class="stack-tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Scikit-learn</span>
+            <span>Machine Learning</span>
+            <span>Time Series</span>
+          </div>
+        </article>
+
+        <article class="stack-card">
+          <h3>Banco & Operação</h3>
+          <div class="stack-tags">
+            <span>SQL</span>
+            <span>Oracle</span>
+            <span>PL/SQL</span>
+            <span>SAP GUI</span>
+            <span>SAP Fiori</span>
+            <span>Service Desk</span>
+          </div>
+        </article>
+
+        <article class="stack-card">
+          <h3>Entrega & Produto</h3>
+          <div class="stack-tags">
+            <span>Streamlit</span>
+            <span>APIs</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Automação</span>
+            <span>Deploy</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="jornada" class="section container">
+      <div class="section-head">
+        <p class="section-kicker">Jornada</p>
+        <h2>Service Desk me ensinou a dor. Dados me ensinaram o padrão.</h2>
+      </div>
 
       <div class="timeline">
         <article class="timeline-item">
-          <h3>Suporte Técnico / Operações de TI</h3>
-          <div class="timeline-subtitle">Transportes Della Volpe</div>
-          <p>
-            Atuação com suporte técnico, rotinas operacionais, SAP GUI e Fiori, além de contato com
-            processos internos, análise de demandas e apoio a fluxos corporativos.
-          </p>
-          <div class="timeline-date">Experiência profissional</div>
+          <span class="timeline-dot"></span>
+          <div>
+            <p class="timeline-date">Base profissional</p>
+            <h3>Suporte técnico, SAP e operação real</h3>
+            <p>
+              Atuação com suporte N1/N2, chamados, SAP GUI/Fiori, banco de dados,
+              análise de demandas e contato direto com problemas de negócio.
+            </p>
+          </div>
         </article>
 
         <article class="timeline-item">
-          <h3>Projetos próprios em Dados, APIs e Machine Learning</h3>
-          <div class="timeline-subtitle">Portfólio técnico</div>
-          <p>
-            Desenvolvimento de APIs RESTful, automações com Python, consultas SQL/Oracle,
-            previsões com Machine Learning e projetos aplicados ao contexto esportivo e operacional.
-          </p>
-          <div class="timeline-date">Em evolução contínua</div>
+          <span class="timeline-dot"></span>
+          <div>
+            <p class="timeline-date">Virada técnica</p>
+            <h3>SQL, PL/SQL, Python e automações</h3>
+            <p>
+              Evolução para consultas, correções, rotinas automatizadas, manipulação
+              de arquivos, XML e soluções para ganhar produtividade.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <p class="timeline-date">Próxima órbita</p>
+            <h3>Machine Learning, IA aplicada e produto</h3>
+            <p>
+              Construção de projetos com previsão, análise esportiva, modelos aplicados
+              e interfaces simples para tornar dados utilizáveis.
+            </p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section id="educacao" class="section section-divider">
-      <h2>Educação</h2>
-
-      <div class="timeline">
-        <article class="timeline-item">
-          <h3>Pós-graduação em Machine Learning</h3>
-          <div class="timeline-subtitle">Início em 2026</div>
+    <section id="contato" class="section container">
+      <div class="contact-panel">
+        <div>
+          <p class="section-kicker">Contato</p>
+          <h2>Vamos construir algo fora da órbita?</h2>
           <p>
-            Formação voltada para aprofundamento em Inteligência Artificial, modelagem preditiva,
-            automação e aplicações práticas de Machine Learning.
+            Estou em evolução contínua na área de Dados, Machine Learning e IA aplicada.
+            Meu objetivo é participar de projetos que misturem tecnologia, produto,
+            negócio e criatividade.
           </p>
-          <div class="timeline-date">2026</div>
-        </article>
-
-        <article class="timeline-item">
-          <h3>Formação e estudos em tecnologia, dados e desenvolvimento</h3>
-          <div class="timeline-subtitle">Base técnica em evolução</div>
-          <p>
-            Estudos contínuos em Python, SQL, Oracle, APIs, banco de dados, análise de dados
-            e desenvolvimento de sistemas.
-          </p>
-          <div class="timeline-date">Formação contínua</div>
-        </article>
-      </div>
-    </section>
-
-    <section id="certificados" class="section section-divider">
-      <h2>Certificados</h2>
-
-      <div class="certificate-groups">
-        <div class="certificate-group">
-          <h3>Dados & Banco de Dados</h3>
-          <ul>
-            <li>SQL</li>
-            <li>Oracle / PL/SQL</li>
-            <li>Banco de Dados</li>
-            <li>Análise de Dados</li>
-          </ul>
         </div>
 
-        <div class="certificate-group">
-          <h3>Desenvolvimento & APIs</h3>
-          <ul>
-            <li>Node.js</li>
-            <li>APIs RESTful</li>
-            <li>Testes automatizados</li>
-            <li>Git e GitHub</li>
-          </ul>
-        </div>
+        <div class="contact-links">
+          <a href="https://github.com/vitorgabriel100" target="_blank" rel="noreferrer">
+            GitHub
+            <span>github.com/vitorgabriel100</span>
+          </a>
 
-        <div class="certificate-group">
-          <h3>IA & Machine Learning</h3>
-          <ul>
-            <li>Python para Machine Learning</li>
-            <li>Fundamentos de IA aplicada</li>
-            <li>Modelagem preditiva</li>
-            <li>Estudos contínuos para pós-graduação</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+          <a href="https://www.linkedin.com/in/vitor-penhorato" target="_blank" rel="noreferrer">
+            LinkedIn
+            <span>linkedin.com/in/vitor-penhorato</span>
+          </a>
 
-    <section id="contato" class="section section-divider">
-      <h2>Contato</h2>
-
-      <div class="contact-list">
-        <div class="contact-row">
-          <span>GitHub</span>
-          <a href="https://github.com/vitorgabriel100" target="_blank" rel="noreferrer">github.com/vitorgabriel100</a>
-        </div>
-        <div class="contact-row">
-          <span>LinkedIn</span>
-          <a href="https://www.linkedin.com/in/vitor-penhorato" target="_blank" rel="noreferrer">linkedin.com/in/vitor-penhorato</a>
-        </div>
-        <div class="contact-row">
-          <span>E-mail</span>
-          <a href="mailto:contato.vitorgabriel2@gmail.com">contato.vitorgabriel2@gmail.com</a>
+          <a href="mailto:contato.vitorgabriel2@gmail.com">
+            E-mail
+            <span>contato.vitorgabriel2@gmail.com</span>
+          </a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <span>© 2026 — Vitor Penhorato</span>
-      <span class="footer-note">Feito com GitHub Pages</span>
-    </div>
+  <footer class="footer container">
+    <p>© 2026 — Vitor Gabriel Penhorato</p>
+    <p>Feito entre dados, estrelas e boas músicas.</p>
   </footer>
 </body>
 </html>
