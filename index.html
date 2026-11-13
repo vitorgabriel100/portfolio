@@ -1,720 +1,562 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#05060f" />
+  <meta name="color-scheme" content="dark" />
 
-  <title>Vitor Penhorato | Dados, Automação e IA</title>
-
+  <title>Vitor Penhorato | Engenharia de Software, Automação e IA</title>
   <meta
     name="description"
-    content="Portfólio de Vitor Penhorato, profissional de tecnologia com projetos em análise de dados, automação, Python, SQL, Machine Learning e desenvolvimento de aplicações."
+    content="Conheça os projetos de Vitor Penhorato em engenharia de software, Python, automação, análise de dados e Inteligência Artificial aplicada. Estudos de caso, resultados e código no GitHub."
   />
+  <meta name="author" content="Vitor Penhorato" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://vitorgabriel100.github.io/portfolio/" />
 
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="pt_BR" />
-  <meta property="og:title" content="Vitor Penhorato | Dados, Automação e IA" />
+  <meta property="og:site_name" content="Vitor Penhorato — Portfólio" />
+  <meta property="og:title" content="Vitor Penhorato | Software, Automação e IA" />
   <meta
     property="og:description"
-    content="Projetos em análise de dados, automação, Python, SQL, Machine Learning e aplicações web."
+    content="Projetos reais, decisões técnicas e soluções com Python, SQL, APIs e Machine Learning."
   />
   <meta property="og:url" content="https://vitorgabriel100.github.io/portfolio/" />
+  <meta name="twitter:card" content="summary" />
 
-  <link rel="canonical" href="https://vitorgabriel100.github.io/portfolio/" />
+  <!-- Quando a arte de compartilhamento estiver pronta, adicionar uma imagem real de 1200 × 630 px:
+       <meta property="og:image" content="https://vitorgabriel100.github.io/portfolio/assets/og-cover.png" />
+       <meta name="twitter:card" content="summary_large_image" />
+       Não publicar o caminho acima antes de criar o arquivo. -->
+
+  <!-- Mantém o CSS existente nesta primeira etapa. O redesign visual virá no style.css. -->
   <link rel="stylesheet" href="./style.css?v=calm-2" />
 </head>
 
 <body>
-  <div class="space-bg" aria-hidden="true">
-    <span class="star star-1"></span>
-    <span class="star star-2"></span>
-    <span class="star star-3"></span>
-    <span class="star star-4"></span>
-    <span class="star star-5"></span>
-    <span class="star star-6"></span>
-    <span class="star star-7"></span>
-    <span class="star star-8"></span>
-  </div>
-
   <header class="site-header" id="inicio">
     <nav class="nav container" aria-label="Navegação principal">
-      <a href="#inicio" class="brand" aria-label="Voltar ao início">
-        <span class="brand-symbol">✦</span>
+      <a class="brand" href="#inicio" aria-label="Vitor Penhorato, voltar ao início">
+        <span class="brand-symbol" aria-hidden="true">✦</span>
         <span>Vitor Penhorato</span>
       </a>
 
       <div class="nav-links">
-        <a href="#sobre">Sobre</a>
-        <a href="#carreira">Carreira</a>
         <a href="#projetos">Projetos</a>
-        <a href="#stack">Stack</a>
-        <a href="#formacao">Formação</a>
-        <a href="#pessoal">Pessoal</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#carreira">Experiência</a>
         <a href="#contato">Contato</a>
       </div>
     </nav>
 
-    <section class="hero container">
+    <section class="hero container" aria-labelledby="titulo-principal">
       <div class="hero-content">
         <p class="availability">
-          <span></span>
-          Disponível para oportunidades em Dados, Automação e IA
+          <span aria-hidden="true"></span>
+          Aberto a oportunidades em Software, Dados e IA
         </p>
 
-        <p class="eyebrow">Dados · Automação · Machine Learning</p>
+        <p class="eyebrow">Python · Engenharia de Software · IA aplicada</p>
 
-        <h1>
+        <h1 id="titulo-principal">
           Vitor Penhorato.
-          <span>Projetos que saem do papel.</span>
+          <span>Transformando problemas reais em soluções inteligentes.</span>
         </h1>
 
         <p class="hero-text">
-          Sou profissional de tecnologia, formado em Análise e Desenvolvimento de Sistemas
-          e pós-graduando em Inteligência Artificial e Machine Learning. Trabalho com
-          suporte a sistemas, SAP, SQL e PL/SQL e desenvolvo projetos em Python voltados
-          a análise de dados, automação e modelos preditivos.
+          Desenvolvo automações, aplicações e soluções orientadas a dados com
+          Python, SQL e Machine Learning. Sou formado em Análise e Desenvolvimento
+          de Sistemas, pós-graduando em Inteligência Artificial e Machine Learning
+          e atuo com integrações, bancos de dados e sistemas corporativos.
         </p>
 
         <div class="hero-actions">
-          <a class="btn primary" href="#projetos">Ver projetos</a>
-
+          <a class="btn primary" href="#projetos">Explorar projetos</a>
           <a
             class="btn secondary"
             href="https://github.com/vitorgabriel100"
             target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
-
+            rel="noopener noreferrer"
+          >GitHub <span aria-hidden="true">↗</span></a>
           <a
             class="btn ghost"
-            href="https://www.linkedin.com/in/vitor-penhorato"
+            href="https://www.linkedin.com/in/vitor-penhorato/"
             target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
+            rel="noopener noreferrer"
+          >LinkedIn <span aria-hidden="true">↗</span></a>
+
+          <!-- Ativar somente depois de adicionar o PDF ao repositório:
+          <a class="btn ghost" href="./assets/curriculo-vitor-penhorato.pdf" download>
+            Baixar currículo
           </a>
+          -->
         </div>
 
-        <div class="hero-metrics" aria-label="Resumo profissional">
+        <div class="hero-metrics" aria-label="Destaques técnicos">
           <article>
-            <strong>Python + SQL</strong>
-            <span>Análise de dados, automações e banco de dados</span>
+            <strong>5 minutos</strong>
+            <span>Intervalo do monitoramento automatizado de integrações</span>
           </article>
-
           <article>
-            <strong>Projetos completos</strong>
-            <span>Tratamento, modelagem, interface e deploy</span>
+            <strong>MAE 4,48</strong>
+            <span>Modelo de previsão avaliado em dados simulados</span>
           </article>
-
           <article>
-            <strong>Experiência corporativa</strong>
-            <span>SAP, Oracle, suporte e processos operacionais</span>
+            <strong>Software + dados</strong>
+            <span>APIs, aplicações web, bancos e Machine Learning</span>
           </article>
         </div>
       </div>
 
-      <aside class="hero-visual" aria-label="Resumo técnico">
-        <div class="planet-system">
-          <div class="orbit orbit-a"></div>
-          <div class="orbit orbit-b"></div>
-          <div class="planet"></div>
-          <div class="moon-dot"></div>
-        </div>
-
-        <div class="console-card">
-          <div class="console-top">
-            <span></span>
-            <span></span>
-            <span></span>
+      <!-- Resumo em texto no lugar do planeta. Na etapa de CSS, esta área receberá
+           uma composição mais compacta e discreta, sem espaçamento artificial. -->
+      <aside class="hero-visual hero-visual--technical" aria-label="Exemplo de arquitetura de automação">
+        <div class="console-card" style="margin-top: 0">
+          <div class="console-top" aria-hidden="true">
+            <span></span><span></span><span></span>
           </div>
-
-          <p class="console-label">vitor.system/profile</p>
-
+          <p class="console-label">Em destaque / automação corporativa</p>
           <div class="terminal-lines">
-            <p><span>experiência</span> SAP, Oracle, SQL, PL/SQL</p>
-            <p><span>projetos</span> analytics, forecasting, automação</p>
-            <p><span>ferramentas</span> Python, Streamlit, Power BI</p>
-            <p><span>objetivo</span> dados, IA aplicada e automações</p>
+            <p><span>origem</span> Oracle · sistemas operacionais</p>
+            <p><span>processamento</span> Python · regras de detecção</p>
+            <p><span>integração</span> API Movidesk</p>
+            <p><span>resultado</span> ocorrências rastreáveis</p>
           </div>
+          <p>
+            Um exemplo de solução construída a partir de necessidades reais da operação,
+            apresentada aqui sem dados internos ou credenciais.
+          </p>
+          <a class="project-link" href="#projeto-monitoramento">Conhecer o projeto</a>
         </div>
       </aside>
     </section>
 
     <div class="scroll-cue container">
-      <span>Continue para ver os projetos</span>
-      <strong>↓</strong>
+      <span>Projetos e estudos de caso</span>
+      <span aria-hidden="true">↓</span>
     </div>
   </header>
 
-  <main>
-    <section id="sobre" class="section container">
+  <main id="conteudo">
+    <!-- A ordem prioriza evidência técnica antes da história profissional. -->
+    <section id="projetos" class="section container" aria-labelledby="titulo-projetos">
+      <div class="section-head split">
+        <div>
+          <p class="section-kicker">Portfólio / trabalhos selecionados</p>
+          <h2 id="titulo-projetos">O problema, a solução e a entrega.</h2>
+        </div>
+        <p class="section-note">
+          Projetos profissionais e independentes que demonstram minha atuação em
+          automação, aplicações, análise de dados e modelos de Machine Learning.
+          Onde existem métricas, apresento também o contexto em que foram medidas.
+        </p>
+      </div>
+
+      <div class="case-grid">
+        <article class="case-card featured" id="projeto-monitoramento">
+          <div class="case-number" aria-hidden="true">01</div>
+          <div class="case-content">
+            <p class="case-type">Projeto corporativo · Automação · Integrações</p>
+            <h3>Monitoramento automatizado de integrações</h3>
+            <p>
+              Acompanhamento recorrente de integrações operacionais para identificar
+              anomalias e apoiar o registro e tratamento de incidentes. O projeto combina
+              consultas a dados corporativos, regras de verificação e integração com
+              uma plataforma de chamados, reduzindo a dependência de verificações manuais.
+            </p>
+            <div class="case-details">
+              <div>
+                <span>Problema</span>
+                <strong>Verificações periódicas de sistemas exigiam acompanhamento operacional</strong>
+              </div>
+              <div>
+                <span>Solução</span>
+                <strong>Verificação a cada 5 minutos e integração com a API do Movidesk</strong>
+              </div>
+              <div>
+                <span>Contexto</span>
+                <strong>Solução corporativa apresentada sem infraestrutura ou dados internos</strong>
+              </div>
+            </div>
+            <div class="tags" aria-label="Tecnologias utilizadas">
+              <span>Python</span><span>Oracle</span><span>SQL</span>
+              <span>APIs REST</span><span>Automação</span>
+            </div>
+            <p class="project-disclosure">
+              <small>
+                Estudo de caso descritivo: por confidencialidade, o código, o painel
+                interno e dados de clientes não são disponibilizados publicamente.
+                Não atribuo a este projeto ganhos percentuais que não foram medidos.
+              </small>
+            </p>
+            <div class="project-actions">
+              <a class="project-link" href="#contato">Conversar sobre a arquitetura</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card featured" id="projeto-forecast">
+          <div class="case-number" aria-hidden="true">02</div>
+          <div class="case-content">
+            <p class="case-type">Machine Learning · Forecasting · Avaliação de modelos</p>
+            <h3>Service Desk Demand Forecast</h3>
+            <p>
+              Pipeline para prever o volume diário de chamados de suporte. Comparei
+              métodos de referência sazonais com Random Forest, usando variáveis
+              temporais e avaliação em um período futuro separado do treinamento.
+            </p>
+            <div class="case-details">
+              <div>
+                <span>Dados</span>
+                <strong>Conjunto simulado de chamados, com avaliação nos últimos 28 dias</strong>
+              </div>
+              <div>
+                <span>Resultado na avaliação</span>
+                <strong>Random Forest: MAE 4,48 · RMSE 6,44</strong>
+              </div>
+              <div>
+                <span>Referência comparada</span>
+                <strong>Baseline híbrido: MAE 21,42 no mesmo estudo</strong>
+              </div>
+            </div>
+            <figure class="case-media">
+              <img
+                src="https://raw.githubusercontent.com/vitorgabriel100/service-desk-demand-forecast/main/outputs/charts/ml_real_vs_pred.png"
+                alt="Gráfico de valores reais e previstos pelo modelo de Machine Learning no projeto de previsão de chamados"
+                width="1100"
+                height="650"
+                loading="lazy"
+                decoding="async"
+                style="display: block; width: 100%; height: auto"
+              />
+              <figcaption>Visualização gerada pelo próprio projeto e publicada no GitHub.</figcaption>
+            </figure>
+            <div class="tags" aria-label="Tecnologias utilizadas">
+              <span>Python</span><span>Pandas</span><span>Scikit-learn</span>
+              <span>Random Forest</span><span>Séries temporais</span>
+            </div>
+            <p class="project-disclosure">
+              <small>
+                Os resultados descrevem o experimento com dados simulados; não representam
+                desempenho comprovado em produção ou em dados reais de clientes.
+              </small>
+            </p>
+            <div class="project-actions">
+              <a class="project-link" href="https://github.com/vitorgabriel100/service-desk-demand-forecast" target="_blank" rel="noopener noreferrer">
+                Código, metodologia e gráficos ↗
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card" id="projeto-emporio">
+          <div class="case-number" aria-hidden="true">03</div>
+          <p class="case-type">Protótipo · Assistente conversacional · Retrieval</p>
+          <h3>Empório da Música — Assistente de atendimento</h3>
+          <p>
+            Protótipo desenvolvido em um desafio técnico para responder dúvidas sobre
+            produtos, pedidos e políticas de uma loja fictícia. Usa operações controladas,
+            consultas a dados estruturados e recuperação de páginas de documentos,
+            com um modo offline e integração opcional com um LLM local.
+          </p>
+          <div class="tags" aria-label="Tecnologias utilizadas">
+            <span>Python</span><span>SQLite</span><span>CLI</span>
+            <span>Recuperação de informação</span><span>Ollama (opcional)</span>
+          </div>
+          <p class="project-disclosure">
+            <small>
+              Protótipo, não produto implantado: o funcionamento generativo depende
+              de um modelo local configurado no ambiente do usuário.
+            </small>
+          </p>
+          <div class="project-actions">
+            <a class="project-link" href="https://github.com/vitorgabriel100/Artefact" target="_blank" rel="noopener noreferrer">Ver arquitetura e código ↗</a>
+          </div>
+        </article>
+
+        <article class="case-card" id="projeto-bingo">
+          <div class="case-number" aria-hidden="true">04</div>
+          <p class="case-type">Engenharia de Software · Full-stack · Tempo real</p>
+          <h3>Bingo Beneficente</h3>
+          <p>
+            Aplicação web para organizar sessões e sorteios, com painel do operador,
+            exibição em TV, autenticação, histórico e atualização de informações em
+            tempo real. O projeto demonstra integração entre front-end, back-end e banco de dados.
+          </p>
+          <div class="tags" aria-label="Tecnologias utilizadas">
+            <span>React</span><span>Spring Boot</span>
+            <span>PostgreSQL</span><span>WebSocket</span>
+          </div>
+          <div class="project-actions">
+            <a class="project-link" href="https://github.com/vitorgabriel100/bingo" target="_blank" rel="noopener noreferrer">Ver código e estrutura ↗</a>
+          </div>
+        </article>
+
+        <article class="case-card" id="projeto-mdfe">
+          <div class="case-number" aria-hidden="true">05</div>
+          <p class="case-type">Automação · Documentos fiscais · Aplicação web</p>
+          <h3>Editor e Gerador de MDF-e</h3>
+          <p>
+            Aplicação para apoiar rotinas com documentos XML de transporte, reunindo
+            operações de geração, edição e tratamento de eventos de MDF-e e CT-e em uma interface.
+            O foco é reduzir etapas manuais e tornar a execução das tarefas mais consistente.
+          </p>
+          <div class="tags" aria-label="Tecnologias utilizadas">
+            <span>Python</span><span>Streamlit</span><span>XML</span>
+            <span>Regras de negócio</span>
+          </div>
+          <div class="project-actions">
+            <a class="project-link" href="https://github.com/vitorgabriel100/gerador-mdfe-encerramento" target="_blank" rel="noopener noreferrer">Ver código ↗</a>
+          </div>
+        </article>
+
+        <article class="case-card" id="projeto-spotify">
+          <div class="case-number" aria-hidden="true">06</div>
+          <p class="case-type">Análise de Dados · Visualização · Projeto pessoal</p>
+          <h3>Spotify Streaming Analytics</h3>
+          <p>
+            Dashboard para explorar padrões do meu histórico de reprodução musical.
+            O projeto organiza dados de streaming e apresenta indicadores, rankings e
+            visualizações interativas por período, artista e plataforma.
+          </p>
+          <div class="tags" aria-label="Tecnologias utilizadas">
+            <span>Python</span><span>Pandas</span><span>Streamlit</span><span>Plotly</span>
+          </div>
+          <div class="project-actions">
+            <a class="project-link" href="https://spotify-dashboard-vitor.streamlit.app/" target="_blank" rel="noopener noreferrer">Abrir dashboard ↗</a>
+            <a class="project-link" href="https://github.com/vitorgabriel100/spotify-dashboard" target="_blank" rel="noopener noreferrer">Ver código ↗</a>
+          </div>
+        </article>
+
+        <article class="case-card" id="projeto-brasileirao">
+          <div class="case-number" aria-hidden="true">07</div>
+          <p class="case-type">Machine Learning · Classificação · Projeto pessoal</p>
+          <h3>Brasileirão Match Predictor</h3>
+          <p>
+            Aplicação para estimar probabilidades de vitória, empate e derrota com
+            regressão logística a partir de dados históricos de partidas. Inclui
+            preparação dos dados, treinamento, serialização do modelo e interface web.
+          </p>
+          <div class="tags" aria-label="Tecnologias utilizadas">
+            <span>Python</span><span>Scikit-learn</span>
+            <span>Regressão logística</span><span>Streamlit</span>
+          </div>
+          <div class="project-actions">
+            <a class="project-link" href="https://brasileirao-match-predictor-ckjgt2tfuqstkbbak4ky5w.streamlit.app/" target="_blank" rel="noopener noreferrer">Abrir aplicação ↗</a>
+            <a class="project-link" href="https://github.com/vitorgabriel100/brasileirao-match-predictor" target="_blank" rel="noopener noreferrer">Ver código ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="hero-actions">
+        <a class="btn secondary" href="https://github.com/vitorgabriel100?tab=repositories" target="_blank" rel="noopener noreferrer">
+          Explorar outros repositórios ↗
+        </a>
+      </div>
+    </section>
+
+    <section id="sobre" class="section container" aria-labelledby="titulo-sobre">
       <div class="section-head split">
         <div>
           <p class="section-kicker">Sobre</p>
-          <h2>Sobre mim e o que estou construindo.</h2>
+          <h2 id="titulo-sobre">Tecnologia que resolve problemas de verdade.</h2>
         </div>
-
         <p class="section-note">
-          Minha experiência começou na operação e no suporte a sistemas. Hoje, além da
-          rotina profissional, estudo e desenvolvo projetos próprios em dados, automação
-          e Machine Learning.
+          Minha trajetória começou com suporte a sistemas e processos operacionais.
+          Essa vivência me ajuda a entender o problema antes de escrever a solução
+          e a pensar em como o software será usado no dia a dia.
         </p>
       </div>
 
       <div class="about-grid">
         <article class="about-card large">
-          <span class="card-icon">⌨️</span>
+          <span class="card-icon" aria-hidden="true">⌨️</span>
           <h3>Experiência prática</h3>
-
           <p>
-            Atuo como Analista de Service Desk Jr em um ambiente corporativo de alta
-            demanda, com suporte N1/N2, SAP GUI e Fiori, consultas em Oracle, SQL e PL/SQL,
-            correção de inconsistências e contato direto com diferentes áreas do negócio.
-            Essa experiência me deu uma base forte em sistemas, processos e resolução
-            de problemas.
+            Sou Analista de Service Desk Pleno na Transportes Della Volpe. Trabalho
+            com SAP, Oracle, SQL e PL/SQL, análise de incidentes e integração entre
+            áreas técnicas e operacionais. Em paralelo, desenvolvo automações e
+            soluções para problemas recorrentes.
           </p>
         </article>
-
         <article class="about-card">
-          <span class="card-icon">📊</span>
-          <h3>Área de interesse</h3>
-
+          <span class="card-icon" aria-hidden="true">🧠</span>
+          <h3>Onde concentro meus estudos</h3>
           <p>
-            Análise de dados, automação de processos, Business Intelligence,
-            Machine Learning e aplicações de IA que possam ser usadas no dia a dia.
+            Engenharia de software com Python, APIs, tratamento de dados, Machine Learning
+            e aplicações de Inteligência Artificial conectadas a necessidades reais.
           </p>
         </article>
-
         <article class="about-card">
-          <span class="card-icon">🛠️</span>
-          <h3>Como trabalho</h3>
-
+          <span class="card-icon" aria-hidden="true">🛠️</span>
+          <h3>Como abordo um projeto</h3>
           <p>
-            Gosto de entender o processo, organizar o problema e construir uma solução
-            simples de usar. Prefiro projetos funcionais, bem estruturados e fáceis de
-            explicar.
+            Entendo os dados e as regras de negócio, crio uma solução testável, documento
+            as decisões e procuro medir os resultados sem exagerar nas conclusões.
           </p>
         </article>
       </div>
     </section>
 
-    <section id="carreira" class="section container">
-      <div class="section-head">
-        <p class="section-kicker">Carreira</p>
-        <h2>Experiência e direção profissional.</h2>
+    <section id="carreira" class="section container" aria-labelledby="titulo-carreira">
+      <div class="section-head split">
+        <div>
+          <p class="section-kicker">Experiência e formação</p>
+          <h2 id="titulo-carreira">Da operação ao desenvolvimento de soluções.</h2>
+        </div>
+        <p class="section-note">
+          Minha experiência corporativa e meus projetos de engenharia se complementam:
+          conhecer processos complexos é parte do trabalho de construir software útil.
+        </p>
       </div>
 
       <div class="timeline">
-        <article class="timeline-item">
-          <span class="timeline-dot"></span>
-
-          <div>
-            <p class="timeline-date">2024 — 2025</p>
-            <h3>Experiência em atendimento e operação</h3>
-
-            <p>
-              Desenvolvimento da minha base profissional em atendimento, organização
-              de rotinas, resolução de problemas e contato com usuários e processos
-              corporativos.
-            </p>
-
-            <strong>Atendimento · Operação · Processos</strong>
-          </div>
-        </article>
-
         <article class="timeline-item active">
-          <span class="timeline-dot"></span>
-
+          <span class="timeline-dot" aria-hidden="true"></span>
           <div>
-            <p class="timeline-date">2025 — Atual</p>
-            <h3>Analista de Service Desk Jr · Transportes Della Volpe</h3>
-
+            <p class="timeline-date">2025 — atual</p>
+            <h3>Analista de Service Desk Pleno · Transportes Della Volpe</h3>
             <p>
-              Suporte técnico N1/N2, atuação com SAP GUI e Fiori, consultas e ajustes
-              em banco de dados Oracle, análise de chamados, apoio aos usuários e
-              entendimento de fluxos operacionais.
+              Atuação com suporte a sistemas corporativos, SAP GUI/Fiori, Oracle,
+              SQL/PLSQL, análise de incidentes, integração com APIs e iniciativas de
+              automação para rotinas operacionais.
             </p>
-
-            <strong>SAP · Oracle · SQL/PLSQL · Service Desk</strong>
+            <strong>Sistemas corporativos · Banco de dados · Automações</strong>
           </div>
         </article>
-
         <article class="timeline-item">
-          <span class="timeline-dot"></span>
-
+          <span class="timeline-dot" aria-hidden="true"></span>
           <div>
-            <p class="timeline-date">2026 — Atual</p>
-            <h3>Projetos em Dados, Automação e IA</h3>
-
+            <p class="timeline-date">2026 — atual</p>
+            <h3>Projetos independentes em Software, Dados e IA</h3>
             <p>
-              Desenvolvimento de dashboards, pipelines de dados, modelos preditivos,
-              automações e aplicações interativas em Python, com publicação dos projetos
-              no GitHub e deploy de aplicações web.
+              Construção de aplicações, pipelines, dashboards e experimentos de
+              Machine Learning, com código e documentação publicados em repositórios públicos.
             </p>
-
-            <strong>Python · Dados · Machine Learning · Automação</strong>
+            <strong>Python · ML · APIs · Aplicações web</strong>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div>
+            <p class="timeline-date">Dezembro de 2025</p>
+            <h3>Graduação em Análise e Desenvolvimento de Sistemas</h3>
+            <p>Universidade Cruzeiro do Sul.</p>
+            <strong>Formação concluída</strong>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div>
+            <p class="timeline-date">2026 — em andamento</p>
+            <h3>Pós-graduação em Inteligência Artificial e Machine Learning</h3>
+            <p>Universidade de Mogi das Cruzes (UMC).</p>
+            <strong>Especialização em andamento</strong>
           </div>
         </article>
       </div>
     </section>
 
-    <section id="projetos" class="section container">
+    <section id="stack" class="section container" aria-labelledby="titulo-stack">
       <div class="section-head split">
         <div>
-          <p class="section-kicker">Projetos</p>
-          <h2>Projetos selecionados.</h2>
+          <p class="section-kicker">Ferramentas</p>
+          <h2 id="titulo-stack">O que uso para construir.</h2>
         </div>
-
         <p class="section-note">
-          Uma seleção de projetos que representam melhor o que tenho estudado e
-          desenvolvido: análise de dados, automação, Machine Learning e aplicações web.
+          Ferramentas empregadas em projetos, no trabalho e nos estudos. Não é uma lista
+          de tecnologias em que alego ter o mesmo nível de experiência.
         </p>
       </div>
-
-      <div class="case-grid">
-        <article class="case-card featured">
-          <div class="case-number">01</div>
-
-          <div class="case-content">
-            <p class="case-type">Data Analytics · Streamlit · Plotly</p>
-            <h3>Spotify Streaming Analytics</h3>
-
-            <p>
-              Dashboard interativo criado a partir do meu histórico de reprodução do
-              Spotify. A aplicação trata os dados do arquivo CSV e apresenta indicadores
-              sobre horas ouvidas, artistas, músicas, álbuns, horários, plataformas,
-              uso do modo aleatório e faixas puladas.
-            </p>
-
-            <div class="case-details">
-              <div>
-                <span>Dados</span>
-                <strong>Histórico pessoal de streaming exportado pelo Spotify</strong>
-              </div>
-
-              <div>
-                <span>Entrega</span>
-                <strong>Dashboard interativo com filtros, rankings e KPIs</strong>
-              </div>
-
-              <div>
-                <span>Stack</span>
-                <strong>Python, Pandas, Streamlit e Plotly</strong>
-              </div>
-            </div>
-
-            <div class="project-actions">
-              <a
-                class="project-link"
-                href="https://spotify-dashboard-vitor.streamlit.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Abrir dashboard
-              </a>
-
-              <a
-                class="project-link"
-                href="https://github.com/vitorgabriel100/spotify-dashboard"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ver código
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <article class="case-card featured">
-          <div class="case-number">02</div>
-
-          <div class="case-content">
-            <p class="case-type">Automação · XML · Streamlit</p>
-            <h3>Editor e Gerador de MDF-e</h3>
-
-            <p>
-              Aplicação desenvolvida para automatizar rotinas envolvendo MDF-e, CT-e e
-              arquivos XML. O sistema reúne funções de encerramento, cancelamento,
-              geração e edição de documentos, reduzindo etapas manuais e padronizando
-              tarefas sensíveis da operação.
-            </p>
-
-            <div class="case-details">
-              <div>
-                <span>Contexto</span>
-                <strong>Rotinas fiscais e logísticas executadas manualmente</strong>
-              </div>
-
-              <div>
-                <span>Solução</span>
-                <strong>Interface única para editar, validar e gerar arquivos</strong>
-              </div>
-
-              <div>
-                <span>Stack</span>
-                <strong>Python, Streamlit, XML e regras de negócio</strong>
-              </div>
-            </div>
-
-            <div class="project-actions">
-              <a
-                class="project-link"
-                href="https://github.com/vitorgabriel100/gerador-mdfe-encerramento"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ver projeto
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <article class="case-card">
-          <div class="case-number">03</div>
-          <p class="case-type">Forecast · Machine Learning · Operação</p>
-          <h3>Service Desk Demand Forecast</h3>
-
-          <p>
-            Modelo de previsão do volume diário de chamados, com validação temporal,
-            comparação entre baselines e Random Forest. No período avaliado, o modelo
-            obteve MAE de 4,48 e RMSE de 6,44.
-          </p>
-
-          <div class="tags">
-            <span>Python</span>
-            <span>Time Series</span>
-            <span>Random Forest</span>
-            <span>Feature Engineering</span>
-          </div>
-
-          <a
-            class="project-link"
-            href="https://github.com/vitorgabriel100/service-desk-demand-forecast"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Ver projeto
-          </a>
-        </article>
-
-        <article class="case-card">
-          <div class="case-number">04</div>
-          <p class="case-type">Full-stack · Tempo real · Sistema web</p>
-          <h3>Bingo Beneficente</h3>
-
-          <p>
-            Sistema web para gerenciamento de bingo em tempo real, com autenticação,
-            perfis de usuário, sessões, rodadas, sorteios, tela de operador, painel para
-            TV, histórico e comunicação via WebSocket.
-          </p>
-
-          <div class="tags">
-            <span>React</span>
-            <span>Spring Boot</span>
-            <span>PostgreSQL</span>
-            <span>WebSocket</span>
-          </div>
-
-          <a
-            class="project-link"
-            href="https://github.com/vitorgabriel100/bingo"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Ver projeto
-          </a>
-        </article>
-
-        <article class="case-card">
-          <div class="case-number">05</div>
-          <p class="case-type">Machine Learning · Futebol · Streamlit</p>
-          <h3>Brasileirão Match Predictor</h3>
-
-          <p>
-            Aplicação que estima as probabilidades de vitória do mandante, empate ou
-            vitória do visitante a partir de partidas históricas do Campeonato Brasileiro.
-            O projeto inclui tratamento, treinamento, serialização do modelo e deploy.
-          </p>
-
-          <div class="tags">
-            <span>Python</span>
-            <span>Scikit-learn</span>
-            <span>Logistic Regression</span>
-            <span>Streamlit</span>
-          </div>
-
-          <div class="project-actions">
-            <a
-              class="project-link"
-              href="https://brasileirao-match-predictor-ckjgt2tfuqstkbbak4ky5w.streamlit.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Abrir aplicação
-            </a>
-
-            <a
-              class="project-link"
-              href="https://github.com/vitorgabriel100/brasileirao-match-predictor"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Ver código
-            </a>
-          </div>
-        </article>
-
-        <article class="case-card">
-          <div class="case-number">06</div>
-          <p class="case-type">Análise de dados · Pipeline · Visualização</p>
-          <h3>Analisador Financeiro</h3>
-
-          <p>
-            Pipeline em Python para limpeza e padronização de transações financeiras
-            fictícias, geração de indicadores, criação de gráficos por categoria e mês
-            e registro das etapas do processamento em logs.
-          </p>
-
-          <div class="tags">
-            <span>Python</span>
-            <span>Pandas</span>
-            <span>Matplotlib</span>
-            <span>Logging</span>
-          </div>
-
-          <a
-            class="project-link"
-            href="https://github.com/vitorgabriel100/analisador-financeiro"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Ver projeto
-          </a>
-        </article>
-      </div>
-
-      <div class="hero-actions">
-        <a
-          class="btn secondary"
-          href="https://github.com/vitorgabriel100?tab=repositories"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Ver todos os repositórios
-        </a>
-      </div>
-    </section>
-
-    <section id="stack" class="section container">
-      <div class="section-head split">
-        <div>
-          <p class="section-kicker">Stack</p>
-          <h2>Tecnologias que uso.</h2>
-        </div>
-
-        <p class="section-note">
-          Ferramentas que fazem parte dos meus estudos, da minha rotina profissional
-          e dos projetos publicados neste portfólio.
-        </p>
-      </div>
-
       <div class="stack-grid">
         <article class="stack-card">
           <span>01</span>
-          <h3>Dados e visualização</h3>
-
+          <h3>Desenvolvimento e integração</h3>
           <div class="stack-tags">
-            <em>Python</em>
-            <em>Pandas</em>
-            <em>NumPy</em>
-            <em>Plotly</em>
-            <em>Matplotlib</em>
-            <em>Power BI</em>
+            <em>Python</em><em>APIs REST</em><em>FastAPI</em>
+            <em>Git/GitHub</em><em>Streamlit</em><em>XML</em>
           </div>
         </article>
-
         <article class="stack-card">
           <span>02</span>
-          <h3>Banco e ambiente corporativo</h3>
-
+          <h3>Dados e banco de dados</h3>
           <div class="stack-tags">
-            <em>SQL</em>
-            <em>Oracle</em>
-            <em>PL/SQL</em>
-            <em>PostgreSQL</em>
-            <em>SAP GUI</em>
-            <em>SAP Fiori</em>
+            <em>SQL</em><em>Oracle</em><em>PL/SQL</em>
+            <em>PostgreSQL</em><em>Pandas</em><em>Power BI</em>
           </div>
         </article>
-
         <article class="stack-card">
           <span>03</span>
-          <h3>Machine Learning</h3>
-
+          <h3>Machine Learning e análise</h3>
           <div class="stack-tags">
-            <em>Scikit-learn</em>
-            <em>Time Series</em>
-            <em>Regressão</em>
-            <em>Classificação</em>
-            <em>Feature Engineering</em>
-            <em>Validação de modelos</em>
+            <em>Scikit-learn</em><em>Random Forest</em><em>Regressão</em>
+            <em>Séries temporais</em><em>Plotly</em><em>Matplotlib</em>
           </div>
         </article>
-
         <article class="stack-card">
           <span>04</span>
-          <h3>Aplicações e automação</h3>
-
+          <h3>Aplicações web</h3>
           <div class="stack-tags">
-            <em>Streamlit</em>
-            <em>APIs</em>
-            <em>XML</em>
-            <em>Git e GitHub</em>
-            <em>React</em>
-            <em>Spring Boot</em>
+            <em>React</em><em>Spring Boot</em><em>WebSocket</em>
+            <em>HTML</em><em>CSS</em><em>Integração front/back</em>
           </div>
         </article>
       </div>
     </section>
 
-    <section id="formacao" class="section container">
+    <section id="pessoal" class="section container identity-section" aria-labelledby="titulo-pessoal">
       <div class="section-head split">
         <div>
-          <p class="section-kicker">Formação</p>
-          <h2>Formação acadêmica e estudos atuais.</h2>
+          <p class="section-kicker">Além do código</p>
+          <h2 id="titulo-pessoal">A pessoa por trás dos projetos.</h2>
         </div>
+        <p class="section-note">
+          Além de tecnologia, gosto de música, futebol e histórias bem contadas.
+          Esses interesses também aparecem nas ideias que escolho transformar em projetos.
+        </p>
       </div>
-
-      <div class="education-grid">
-        <article class="education-card">
-          <p>Graduação</p>
-          <h3>Análise e Desenvolvimento de Sistemas</h3>
-          <span>Universidade Cruzeiro do Sul · concluída em dezembro de 2025</span>
+      <div class="about-grid">
+        <article class="about-card">
+          <span class="card-icon" aria-hidden="true">♫</span>
+          <h3>Música</h3>
+          <p>R&amp;B, soul, rap e pop fazem parte da minha rotina. Música também inspirou meu dashboard do Spotify.</p>
         </article>
-
-        <article class="education-card">
-          <p>Pós-graduação</p>
-          <h3>Inteligência Artificial e Machine Learning</h3>
-          <span>Universidade de Mogi das Cruzes · em andamento</span>
+        <article class="about-card">
+          <span class="card-icon" aria-hidden="true">⚽</span>
+          <h3>Futebol</h3>
+          <p>Sou corintiano, gosto de jogar e acompanho o campeonato. Foi daí que surgiu o Brasileirão Match Predictor.</p>
         </article>
-
-        <article class="education-card">
-          <p>Estudos complementares</p>
-          <h3>Python, dados, banco de dados e IA</h3>
-          <span>Cursos, projetos práticos e estudos independentes</span>
+        <article class="about-card">
+          <span class="card-icon" aria-hidden="true">✦</span>
+          <h3>Histórias e cultura</h3>
+          <p>Gosto de animes, séries e narrativas que ficam na memória — um contraponto criativo à rotina técnica.</p>
         </article>
-      </div>
-    </section>
-
-    <section id="pessoal" class="section container identity-section">
-      <div class="mixtape">
-        <div class="album-cover" aria-hidden="true">
-          <div class="vinyl-ring"></div>
-          <div class="moon"></div>
-
-          <div class="album-title">
-            <span>um pouco fora do código</span>
-            <strong>Música, futebol e vida fora da tela.</strong>
-          </div>
-        </div>
-
-        <div class="track-list">
-          <article class="track active">
-            <span>01</span>
-
-            <div>
-              <h3>Música</h3>
-              <p>
-                Música está presente em praticamente todos os meus dias. Ouço muito R&B,
-                rap, pop e gospel; Drake, Daniel Caesar e Michael Jackson estão entre
-                os meus artistas favoritos.
-              </p>
-            </div>
-
-            <strong>no repeat</strong>
-          </article>
-
-          <article class="track">
-            <span>02</span>
-
-            <div>
-              <h3>Corinthians e futebol</h3>
-              <p>
-                Sou corintiano e acompanho futebol. Esse interesse também acabou virando
-                tema de alguns dos meus primeiros projetos de Machine Learning.
-              </p>
-            </div>
-
-            <strong>futebol</strong>
-          </article>
-
-          <article class="track">
-            <span>03</span>
-
-            <div>
-              <h3>Anime e séries</h3>
-              <p>
-                No tempo livre, também gosto de assistir anime e séries. É uma das coisas
-                que faço para descansar um pouco da rotina de trabalho e estudos.
-              </p>
-            </div>
-
-            <strong>tempo livre</strong>
-          </article>
-
-          <article class="track">
-            <span>04</span>
-
-            <div>
-              <h3>Fora do computador</h3>
-              <p>
-                Academia, futebol, música e tempo com a família ocupam boa parte da minha
-                rotina quando não estou trabalhando ou mexendo em algum projeto.
-              </p>
-            </div>
-
-            <strong>rotina</strong>
-          </article>
-        </div>
       </div>
     </section>
 
-    <section id="contato" class="section container">
+    <section id="contato" class="section container" aria-labelledby="titulo-contato">
       <div class="contact-panel">
         <div>
           <p class="section-kicker">Contato</p>
-          <h2>Vamos conversar.</h2>
-
+          <h2 id="titulo-contato">Vamos construir algo útil?</h2>
           <p>
-            Estou em busca de oportunidades em análise de dados, automação,
-            Business Intelligence, Machine Learning e IA aplicada. Para falar sobre
-            uma vaga, projeto ou colaboração, meus contatos estão ao lado.
+            Tenho interesse em oportunidades de desenvolvimento Python, engenharia de
+            software, dados, automação e Inteligência Artificial aplicada. Se quiser
+            conversar sobre uma vaga, colaboração ou projeto, entre em contato.
           </p>
         </div>
-
         <div class="contact-links">
           <a href="mailto:contato.vitorgabriel2@gmail.com">
             E-mail
             <span>contato.vitorgabriel2@gmail.com</span>
           </a>
-
-          <a
-            href="https://www.linkedin.com/in/vitor-penhorato"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/vitor-penhorato/" target="_blank" rel="noopener noreferrer">
             LinkedIn
             <span>linkedin.com/in/vitor-penhorato</span>
           </a>
-
-          <a
-            href="https://github.com/vitorgabriel100"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/vitorgabriel100" target="_blank" rel="noopener noreferrer">
             GitHub
             <span>github.com/vitorgabriel100</span>
           </a>
@@ -725,7 +567,7 @@
 
   <footer class="footer container">
     <p>© 2026 — Vitor Penhorato</p>
-    <p>Dados · Automação · Machine Learning</p>
+    <p>Engenharia de Software · Automação · IA aplicada</p>
   </footer>
 </body>
 </html>
